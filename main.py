@@ -28,7 +28,7 @@ def main():
     demo.play()
 
     # ── Fase 2: Simulación Montecarlo ─────────────────────────────────────
-    simulator = MontecarloSimulator(simulations=1_000)
+    simulator = MontecarloSimulator(simulations=500)
     result    = simulator.run()
 
     verbose_logger.log_montecarlo_stats(
